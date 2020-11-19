@@ -1,12 +1,15 @@
 {% extends 'index.html' %}
 {%load static %}
+
 {% block Stylee %}          
 {% endblock Stylee %}
 
-{% block titlee %}      
+{% block titlee %}   
+    {{setting.title}}   
 {% endblock titlee %}
 
 {% block description %}
+    {{setting.description}}  
 {% endblock description %}
 
 {% block keyword %}  
